@@ -46,6 +46,7 @@ You can check the code generated for which URL to use for each call.
 7. Add the following in Program.cs above the line *builder.build()*
 
 ```
+builder.Services.AddSingleton<EmployeesContext>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy",
