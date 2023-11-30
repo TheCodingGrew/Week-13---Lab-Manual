@@ -34,6 +34,7 @@ dotnet ef dbcontext scaffold "connection-string" MySql.EntityFrameworkCore -o di
 Information on building connection string can be found here:
 https://dev.mysql.com/doc/connector-net/en/connector-net-connections-string.html
 
+Note: Run Install-Package MySql.Data in case of errors.
 
 5. Now right-click on the Controllers folder, then Add > New Scaffolded Item > API > API Controller with Actions, using Entity Framework
 
