@@ -32,7 +32,7 @@ dotnet ef dbcontext scaffold "connection-string" MySql.EntityFrameworkCore -o di
 
 ```
 
-Information on building connection string can be found here:
+**Replace the connection string using the below url**
 https://dev.mysql.com/doc/connector-net/en/connector-net-connections-string.html
 
 Note: Run Install-Package MySql.Data in case of errors.
