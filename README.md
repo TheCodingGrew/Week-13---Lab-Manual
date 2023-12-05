@@ -6,10 +6,11 @@
     - Choose .NET Framework 7
 
 2. Install the following NuGet packages
-    - EntityFramework
-    - EntityFrameworkCore
-    - Entityframework tools
-    - Mysql.entityframeworkcore
+    - EntityFramework (latest)
+    - EntityFrameworkCore (latest in 7.x)
+    - Entityframework tools (latest in 7.x)
+    - Mysql.entityframeworkcore (latest in 7.x)
+    - Mysql.Data (latest)
 
     You can choose the latest version of all the above packages.
 
